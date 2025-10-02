@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horse Club</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./src/images/horse.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-top">
+        <!-- email address -->
+        <div class="header-contact">
+          <span class="header-contact-icon">
+            <i class="fa-solid fa-paper-plane"></i>
+          </span>
+          <p class="header-contact-text">info@horseclub.com</p>
+        </div>
+        <!-- end of email address -->
+
+        <!-- logo -->
+        <div class="logo">
+          <img src="./src/images/horse.png" alt="logo" width="40px" />
+          <p class="logo-text">horse club</p>
+        </div>
+        <!-- end of logo -->
+
+        <!-- Phone Number -->
+        <div class="header-contact">
+          <p class="header-contact-text">+254 546 879 12</p>
+          <span class="header-contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </span>
+        </div>
+        <!-- End of Phone Number -->
+      </div>
+      <div class="header-bottom">
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#home" class="nav-list-item-link">home</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#about" class="nav-list-item-link">about us</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#services" class="nav-list-item-link">services</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#reasons" class="nav-list-item-link">why us</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#team" class="nav-list-item-link">team</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#blog" class="nav-list-item-link">blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero-section" id="home">
+      <div class="hero-textbox">
+        <p class="hero-textbox-paragraph">Introducing horse club</p>
+        <h1 class="hero-textbox-heading">
+          inter relation between horses and riders
+        </h1>
+        <a
+          href="https://github.com/codeme254"
+          target="_blank"
+          class="hero-textbox-cta"
+          >learn more</a
+        >
+      </div>
+    </section>
+    <!-- End of hero section -->
+
+    <!-- About section -->
+    <section class="about-section" id="about">
+      <div class="about-textbox">
+        <p class="about-text-subtitle">
+          We are here to take care of your horses
+        </p>
+        <h2 class="about-title">
+          we are your horses' best friend now and forever
+        </h2>
+        <p class="about-description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium
+          et nemo odio laudantium modi nihil vel consectetur magnam excepturi
+          quis quasi enim omnis incidunt veniam aut esse, error impedit dolores.
+        </p>
+        <a href="https://github.com/codeme254" target="_blank" class="about-cta"
+          >get started now</a
+        >
+      </div>
+      <div class="about-img-wrapper">
+        <img
+          src="./src/images/about-img.jpg"
+          alt="horse running"
+          class="about-img-image"
+        />
+      </div>
+    </section>
+    <!-- End of the about section -->
+
+    <!-- Services section -->
+    <section class="services-section" id="services">
+      <div class="title">
+        <p class="title-sub">some of the things we offer</p>
+        <h2 class="title-main">our services</h2>
+      </div>
+      <div class="services-container">
+        <!-- service card 1 -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img
+              src="./src/images/service-vet.png"
+              alt="veterinary services"
+              class="service-image"
+            />
+          </div>
+          <h3 class="service-title">veterinary service</h3>
+          <p class="service-description">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove.
+          </p>
+        </div>
+        <!-- end of service card 1 -->
+        <!-- service card 2 -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img
+              src="./src/images/service-horse-grooming.png"
+              alt="horse grooming"
+              class="service-image"
+            />
+          </div>
+          <h3 class="service-title">horse grooming</h3>
+          <p class="service-description">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove.
+          </p>
+        </div>
+        <!-- end of service card 2 -->
+        <!-- service card 3 -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img
+              src="./src/images/service-horse-training.png"
+              alt="horse training"
+              class="service-image"
+            />
+          </div>
+          <h3 class="service-title">horse training</h3>
+          <p class="service-description">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove.
+          </p>
+        </div>
+        <!-- end of service card 3 -->
+        <!-- service card 4 -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img
+              src="./src/images/service-horse-feeding.png"
+              alt="horse feeding"
+              class="service-image"
+            />
+          </div>
+          <h3 class="service-title">horse feeding</h3>
+          <p class="service-description">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove.
+          </p>
+        </div>
+        <!-- end of service card 4 -->
+        <!-- service card 5 -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img
+              src="./src/images/service-horse-santuary.png"
+              alt="sanctuary for horses"
+              class="service-image"
+            />
+          </div>
+          <h3 class="service-title">Sanctuary for horses</h3>
+          <p class="service-description">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove.
+          </p>
+        </div>
+        <!-- end of service card 5 -->
+        <!-- service card 6 -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img
+              src="./src/images/service-horse-tracking.png"
+              alt="digital tracking"
+              class="service-image"
+            />
+          </div>
+          <h3 class="service-title">digital tracking</h3>
+          <p class="service-description">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove.
+          </p>
+        </div>
+        <!-- end of service card 6 -->
+      </div>
+    </section>
+    <!-- End of services section -->
+
+    <!-- Reasons section -->
+    <section class="reasons-section" id="reasons">
+      <div class="reason">
+        <h3 class="reason-title">expert technicians</h3>
+        <p class="reason-description">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div class="reason">
+        <h3 class="reason-title">professional advice</h3>
+        <p class="reason-description">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div class="reason">
+        <h3 class="reason-title">great support</h3>
+        <p class="reason-description">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div class="reason">
+        <h3 class="reason-title">technical skills</h3>
+        <p class="reason-description">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div class="reason">
+        <h3 class="reason-title">highly recommended</h3>
+        <p class="reason-description">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+      <div class="reason">
+        <h3 class="reason-title">positive reviews</h3>
+        <p class="reason-description">
+          Usage of the Internet is becoming more common due to rapid advancement
+          of technology and power.
+        </p>
+      </div>
+    </section>
+    <!-- End of reasons section -->
+
+    <!-- Team section -->
+    <section class="team-section" id="team">
+      <div class="title">
+        <p class="title-sub">team</p>
+        <h2 class="title-main">our team</h2>
+      </div>
+      <div class="team-members-container">
+        <!-- team member card -->
+        <div class="team-member-card">
+          <div class="team-member-image-wrapper">
+            <img
+              src="./src/images/staff-irene.jpg"
+              alt="A head-shot of irene"
+              class="team-member-image"
+            />
+          </div>
+          <div class="team-member-information">
+            <h3 class="team-member-name">Irene Mutuku</h3>
+            <p class="team-member-position">CEO, Founder</p>
+            <div class="team-member-socials">
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end of team member card -->
+        <!-- team member card -->
+        <div class="team-member-card">
+          <div class="team-member-image-wrapper">
+            <img
+              src="./src/images/staff-brian.jpg"
+              alt="A head-shot of irene"
+              class="team-member-image"
+            />
+          </div>
+          <div class="team-member-information">
+            <h3 class="team-member-name">Brian Nzioka</h3>
+            <p class="team-member-position">horse groomer</p>
+            <div class="team-member-socials">
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end of team member card -->
+        <!-- team member card -->
+        <div class="team-member-card">
+          <div class="team-member-image-wrapper">
+            <img
+              src="./src/images/staff-babra.jpg"
+              alt="A head-shot of Babra"
+              class="team-member-image"
+            />
+          </div>
+          <div class="team-member-information">
+            <h3 class="team-member-name">Babra obare</h3>
+            <p class="team-member-position">IT Support</p>
+            <div class="team-member-socials">
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end of team member card -->
+        <!-- team member card -->
+        <div class="team-member-card">
+          <div class="team-member-image-wrapper">
+            <img
+              src="./src/images/staff-george.jpg"
+              alt="A head-shot of Fleeky"
+              class="team-member-image"
+            />
+          </div>
+          <div class="team-member-information">
+            <h3 class="team-member-name">Fleeky George</h3>
+            <p class="team-member-position">horse trainer</p>
+            <div class="team-member-socials">
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end of team member card -->
+        <!-- team member card -->
+        <div class="team-member-card">
+          <div class="team-member-image-wrapper">
+            <img
+              src="./src/images/staff-linnet.jpg"
+              alt="A head-shot of Linet"
+              class="team-member-image"
+            />
+          </div>
+          <div class="team-member-information">
+            <h3 class="team-member-name">Linnet Wanjiku</h3>
+            <p class="team-member-position">Human Resource</p>
+            <div class="team-member-socials">
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end of team member card -->
+        <!-- team member card -->
+        <div class="team-member-card">
+          <div class="team-member-image-wrapper">
+            <img
+              src="./src/images/staff-joshua.jpg"
+              alt="A head-shot of joshua"
+              class="team-member-image"
+            />
+          </div>
+          <div class="team-member-information">
+            <h3 class="team-member-name">Joshua kimani</h3>
+            <p class="team-member-position">horse sanctuary</p>
+            <div class="team-member-socials">
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://github.com/codeme254"
+                target="_blank"
+                class="team-member-social-url"
+              >
+                <i class="fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- end of team member card -->
+      </div>
+    </section>
+    <!-- End of team section -->
+
+    <!-- Blog section -->
+    <section class="blog-section" id="blog">
+      <div class="title">
+        <p class="title-sub">latest from our blog</p>
+        <h2 class="title-main">our blog</h2>
+      </div>
+      <div class="blog-cards-container">
+        <!-- Blog card -->
+        <div class="blog-card">
+          <div class="blog-card-img-wrapper">
+            <img
+              src="./src/images/blog-img-1.jpg"
+              alt="featured image"
+              class="blog-card-featured-image"
+            />
+          </div>
+          <div class="blog-card-chips-container">
+            <a href="#" class="blog-card-chip">travel</a>
+            <a href="#" class="blog-card-chip">lifestyle</a>
+          </div>
+          <a href="#" class="blog-card-title">
+            <h3 class="blog-card-title-title">Lorem ipsum dolor sit amet.</h3>
+          </a>
+          <p class="blog-synopsis">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur voluptas repellat similique odio eveniet aliquam quam
+            animi beatae eligendi.
+          </p>
+          <div class="blog-card-meta-information">
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>31<sup>st</sup> September 2025</p>
+            </div>
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">john doe</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of blog card -->
+        <!-- Blog card -->
+        <div class="blog-card">
+          <div class="blog-card-img-wrapper">
+            <img
+              src="./src/images/blog-img-2.jpg"
+              alt="featured image"
+              class="blog-card-featured-image"
+            />
+          </div>
+          <div class="blog-card-chips-container">
+            <a href="#" class="blog-card-chip">travel</a>
+            <a href="#" class="blog-card-chip">lifestyle</a>
+            <a href="#" class="blog-card-chip">animals</a>
+            <a href="#" class="blog-card-chip">accomodation</a>
+          </div>
+          <a href="#" class="blog-card-title">
+            <h3 class="blog-card-title-title">
+              amet consectetur adipisicing elit
+            </h3>
+          </a>
+          <p class="blog-synopsis">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur voluptas repellat similique odio eveniet aliquam quam
+            animi beatae eligendi.
+          </p>
+          <div class="blog-card-meta-information">
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>30<sup>th</sup> September 2025</p>
+            </div>
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">emma clerk</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of blog card -->
+        <!-- Blog card -->
+        <div class="blog-card">
+          <div class="blog-card-img-wrapper">
+            <img
+              src="./src/images/blog-img-3.jpg"
+              alt="featured image"
+              class="blog-card-featured-image"
+            />
+          </div>
+          <div class="blog-card-chips-container">
+            <a href="#" class="blog-card-chip">travel</a>
+            <a href="#" class="blog-card-chip">lifestyle</a>
+            <a href="#" class="blog-card-chip">accommodation</a>
+          </div>
+          <a href="#" class="blog-card-title">
+            <h3 class="blog-card-title-title">eveniet aliquam quam animi</h3>
+          </a>
+          <p class="blog-synopsis">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur voluptas repellat similique odio eveniet aliquam quam
+            animi beatae eligendi.
+          </p>
+          <div class="blog-card-meta-information">
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>28<sup>th</sup> September 2025</p>
+            </div>
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">brad paisley</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of blog card -->
+        <!-- Blog card -->
+        <div class="blog-card">
+          <div class="blog-card-img-wrapper">
+            <img
+              src="./src/images/blog-img-4.jpg"
+              alt="featured image"
+              class="blog-card-featured-image"
+            />
+          </div>
+          <div class="blog-card-chips-container">
+            <a href="#" class="blog-card-chip">accommodation</a>
+          </div>
+          <a href="#" class="blog-card-title">
+            <h3 class="blog-card-title-title">
+              similique odio eveniet aliquam quam
+            </h3>
+          </a>
+          <p class="blog-synopsis">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur voluptas repellat similique odio eveniet aliquam quam
+            animi beatae eligendi.
+          </p>
+          <div class="blog-card-meta-information">
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>27<sup>st</sup> September 2025</p>
+            </div>
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">charlie pride</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of blog card -->
+        <!-- Blog card -->
+        <div class="blog-card">
+          <div class="blog-card-img-wrapper">
+            <img
+              src="./src/images/blog-img-5.jpg"
+              alt="featured image"
+              class="blog-card-featured-image"
+            />
+          </div>
+          <div class="blog-card-chips-container">
+            <a href="#" class="blog-card-chip">lifestyle</a>
+            <a href="#" class="blog-card-chip">animals</a>
+          </div>
+          <a href="#" class="blog-card-title">
+            <h3 class="blog-card-title-title">
+              similique odio eveniet aliquam quam
+            </h3>
+          </a>
+          <p class="blog-synopsis">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur voluptas repellat similique odio eveniet aliquam quam
+            animi beatae eligendi.
+          </p>
+          <div class="blog-card-meta-information">
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>26<sup>th</sup> September 2025</p>
+            </div>
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">george washington</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of blog card -->
+        <!-- Blog card -->
+        <div class="blog-card">
+          <div class="blog-card-img-wrapper">
+            <img
+              src="./src/images/blog-img-6.jpg"
+              alt="featured image"
+              class="blog-card-featured-image"
+            />
+          </div>
+          <div class="blog-card-chips-container">
+            <a href="#" class="blog-card-chip">lifestyle</a>
+            <a href="#" class="blog-card-chip">animals</a>
+            <a href="#" class="blog-card-chip">accommodation</a>
+          </div>
+          <a href="#" class="blog-card-title">
+            <h3 class="blog-card-title-title">quam animi beatae eligendi.</h3>
+          </a>
+          <p class="blog-synopsis">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam
+            aspernatur voluptas repellat similique odio eveniet aliquam quam
+            animi beatae eligendi.
+          </p>
+          <div class="blog-card-meta-information">
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-calendar-days"></i>
+              <p>25<sup>th</sup> September 2025</p>
+            </div>
+            <div class="blog-card-meta">
+              <i class="fa-solid fa-user"></i>
+              <a href="#">martin luther</a>
+            </div>
+          </div>
+        </div>
+        <!-- End of blog card -->
+      </div>
+    </section>
+    <!-- End of blog section -->
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="footer-text">
+        Built with lots of &hearts; by
+        <a href="https://github.com/codeme254" target="_blank">Dennis Otwoma</a>
+      </p>
+    </footer>
+    <!-- End of the footer -->
+  </body>
+</html>
